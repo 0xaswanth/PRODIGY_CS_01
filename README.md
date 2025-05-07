@@ -1,34 +1,27 @@
-# PRODIGY_CS_01
-Cyber Security Internship Task for Prodigy InfoTech
-
 Caesar Cipher Program - Prodigy InfoTech Internship Task 1
 Objective
-This Python program implements the Caesar Cipher algorithm, which allows users to encrypt and decrypt text using a shift value. The program supports both encryption and decryption operations, and users can provide their own message and shift value for the process.
+This Python program implements the Caesar Cipher algorithm, which allows users to encrypt and decrypt text using a shift value. The program provides a simple menu interface where users can select between encryption and decryption.
 
 Technologies Used
 Python 3.x
 
-OOP (Object-Oriented Programming)
+Object-Oriented Programming (OOP)
 
 Features
-Encryption: The program takes a message and a shift value to encrypt the text.
+Encryption: Encrypts a message by shifting the letters by a user-defined value.
 
-Decryption: Users can also decrypt an encrypted message by providing the correct shift value.
+Decryption: Decrypts an encrypted message using the correct shift value.
 
-Menu Interface: The program offers a simple text-based menu to select between encryption, decryption, or exiting the program.
+Menu-driven Interface: A simple text-based menu for selecting encryption, decryption, or exiting the program.
 
 Instructions
 Clone this repository to your local machine.
 
-Run the caesar_cipher.py file using Python 3.x.
+Run the Python script using Python 3.x.
 
-You will be presented with a menu where you can choose to Encrypt, Decrypt, or Exit.
+The program will present a menu with options to either Encrypt, Decrypt, or Exit.
 
-Enter the message you want to encrypt or decrypt.
-
-Input the shift value (an integer).
-
-The program will output the encrypted or decrypted message based on your choice.
+Enter the message and shift value as prompted to see the encrypted or decrypted result.
 
 How to Run
 To run the program, follow these steps:
@@ -46,10 +39,10 @@ bash
 Copy
 Edit
 python caesar_cipher.py
-Follow the on-screen instructions to select encryption or decryption options.
+Select an option from the menu and follow the prompts to either encrypt or decrypt a message.
 
-Example
-Sample Input for Encryption:
+Sample Output
+Encrypting a Message:
 pgsql
 Copy
 Edit
@@ -57,7 +50,7 @@ Choose an option (1/2/3): 1
 Enter your message: Hello World!
 Enter shift number: 3
 Encrypted Message: Khoor Zruog!
-Sample Input for Decryption:
+Decrypting a Message:
 yaml
 Copy
 Edit
@@ -69,9 +62,6 @@ Code Overview
 python
 Copy
 Edit
-# Caesar Cipher Program - Version 2
-# By Sneha KM
-
 class CaesarCipher:
     def __init__(self, shift):
         self.shift = shift % 26
@@ -123,5 +113,5 @@ def main():
 # Start the program
 main()
 Acknowledgments
-Prodigy InfoTech for providing the opportunity to work on this internship task.
+Prodigy InfoTech for the opportunity to work on this task.
 
